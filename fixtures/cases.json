@@ -1,0 +1,11 @@
+{
+ "nominal_points":[[0,0,0],[1,0,0],[0,1,0],[0,0,1]],
+ "observed_points":[[0,0,0],[1,0,0],[0,1,0],[0,0,1]],
+ "contacts":[
+  {"id":"A","point":[-1,0,0],"normal":[0,0,1],"u":[1,0,0],"v":[0,1,0],"mu":0},
+  {"id":"B","point":[0,0,0],"normal":[0,0,1],"u":[1,0,0],"v":[0,1,0],"mu":0},
+  {"id":"C","point":[1,0,0],"normal":[0,0,1],"u":[1,0,0],"v":[0,1,0],"mu":0}
+ ],
+ "request":{"fixed_assignment":["A","C"],"allowed":[["A","B"],["B","C"]],"caps":[0.7,0.7],"loads":[[0,0,-1,0,0,0]],"weights":[1]},
+ "registration_example":{"nominal":[[-1,0,0],[1,0,0]],"observed_before":[[-1.1,0,0],[-0.9,0,0]],"observed_after":[[-0.6,0,0],[-0.4,0,0]],"sigma":0.2,"eta":0.1,"initial_tx":-0.2}
+}
